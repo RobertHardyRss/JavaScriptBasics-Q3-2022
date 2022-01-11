@@ -6,6 +6,7 @@ canvas.height = 600;
 
 console.log("Hello world!");
 
+// this is setting a variable suit to the string spades
 let suit = "spades";
 let face = "queen";
 let value = 10;
@@ -21,4 +22,16 @@ let aceOfSpades = {
 
 console.log(aceOfSpades.toString());
 
-// something new from github
+// single line comment
+
+/* 
+this is a
+multiline comment
+*/
+
+// arrays are collections of data
+
+let agesOfTable1 = [13, 23, 33];
+console.log(agesOfTable1[2]);
+
+let namesAndAges = ["Hunter", 13, "Patrick", 14, "Tanner", 14.8];
