@@ -23,7 +23,7 @@ class Square {
 
 		// bounce off the top
 		if (this.y <= 0) {
-			this.yDirection = 1;
+			this.yDirection = 1
 		}
 
 		// bounces off the right
@@ -46,7 +46,6 @@ class Square {
 }
 
 let square1 = new Square(100, 200, "red");
-let square2 = new Square(20, 500, "blue");
 let square2 = new Square(20, 500, "blue");
 
 function animate() {
