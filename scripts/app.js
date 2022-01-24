@@ -18,12 +18,12 @@ class Square {
 	update() {
 		// bounce off the bottom
 		if (this.y + this.height >= canvas.height) {
-			this.xDirection = -1;
+			this.yDirection = -1;
 		}
 
 		// bounce off the top
 		if (this.y <= 0) {
-			this.yDirection = 1
+			this.yDirection = 1;
 		}
 
 		// bounces off the right
